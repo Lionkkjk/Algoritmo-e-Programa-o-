@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite seu nome:");
+        String nome = sc.nextLine();
+        System.out.print("Digite sua 1° nota:");
+        double n1 = sc.nextDouble();
+        System.out.print("Digite sua 2° nota:");
+        double n2 = sc.nextDouble();
+        System.out.print("Digite sua 3° nota:");
+        double n3 = sc.nextDouble();
+        double media = (n1 + n2 + n3) / 3;
+        System.out.printf("a media do(a) estudante " + nome + " é: %.2f\n", media);
+
+        if (media >= 6 && media <10) {
+            System.out.print("Aprovado.");
+        } else if (media <= 5) {
+            System.out.print("Reprovado.");
+        }
+            else {
+            System.out.println("Nota invalida");
+        }
+
+        sc.close();
+    }
+}
