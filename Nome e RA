@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Guilherme de Lima Rocha.");
+        //não sei meu RA.
+        System.out.println("238238938932");
+        System.out.println("Analise e desenvolvimento de sistemas.");
+    }
+}
