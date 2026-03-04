@@ -1,0 +1,9 @@
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Tenho 19 anos.");
+        System.out.println("Tenho 1,79.");
+        System.out.println("Status da na aula: Presente.");
+    }
+}
