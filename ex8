@@ -1,0 +1,15 @@
+package ex8;
+public class Ex8 {
+    public static void main(String[] args) {
+        
+        double n1 = 8.0;
+        double n2 = 7.5;
+        double n3 = 4.5;
+        double n4 = 9.0;
+
+        double media = (n1 + n2 + n3 + n4) / 4;
+
+        System.out.printf("A media das notas e: %.2f%n", media);
+    }
+    
+}
