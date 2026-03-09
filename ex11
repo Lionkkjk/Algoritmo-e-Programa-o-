@@ -1,0 +1,23 @@
+package ex11;
+import java.util.Scanner;
+public class Ex11 {
+    public static void main(String[] args) {
+        
+       Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite seu ano de nascimento: ");
+        int anonascimento = sc.nextInt();
+
+        System.out.print("Digite o ano atual: ");
+        int anoatual = sc.nextInt();
+
+        int idade = anoatual - anonascimento;
+        int idade2030 = 2030 - anonascimento;
+
+        System.out.println("Idade atual:"+ idade);
+        System.out.println("Idade em 2030:"+ idade2030);
+
+        sc.close();
+    }
+}
+    
