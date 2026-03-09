@@ -1,0 +1,12 @@
+package ex9;
+public class Ex9 {
+    public static void main(String[] args) {
+        System.out.print("Qual é a area de um quadrado cujo lado possui 350m?");
+        
+        double lado = 350;
+        double area = lado * lado;
+
+        System.out.printf("A area do quadrado e: %.2f", area);
+    }
+    
+}
