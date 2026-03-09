@@ -1,0 +1,14 @@
+package ex10;
+public class Ex10 {
+    public static void main(String[] args) {
+        
+        System.out.print("Qual é a area de um circulo que possui 5 cm de raio");
+        
+        int raio = 5;
+        double pi = 3.14159;
+        double area = pi * Math.pow(raio, 2);
+        
+        System.out.printf("A area do circulo e: %.2f", area);
+    }
+    
+}
